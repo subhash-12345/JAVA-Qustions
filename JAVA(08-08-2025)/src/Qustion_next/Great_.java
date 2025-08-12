@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Qustion_next;
 // write a method to print  hello world and call it from the main method
 
@@ -13,3 +14,20 @@ public class Great_{
 
     }
 }
+=======
+package Qustion_next;
+// write a method to print  hello world and call it from the main method
+
+class Great{
+    void display(){
+        System.out.println("Hello world!");
+    }
+}
+public class Great_{
+    public static void main(String[] args) {
+        Great g=new Great();
+        g.display();
+
+    }
+}
+>>>>>>> ae9c59b9a50f8c6013f05eb2e4f906350a81b633
